@@ -2,15 +2,31 @@ using DG.Tweening;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class ExplosionEventChannel : MonoBehaviour
 {
     private float currentExplosionValue = 0f;
     private Tween explosionTween;
 
-    public static UnityEvent<float> OnExplosionChanged = new UnityEvent<float>();
+    Slider slider;
 
-    void Raise(float value) => OnExplosionChanged?.Invoke(value);
+    private void Awake()
+    {
+        if (slider)
+            return;
+
+        slider = GetComponentInChildren<Slider>(true);
+    }
+
+    public static UnityEvent<float> OnExplosionChanged = new UnityEvent<float>();
+    public static UnityEvent OnResetViewed = new();
+
+    void Raise(float value)
+    {
+        currentExplosionValue = value;
+        OnExplosionChanged?.Invoke(value);
+    }
 
     public void OnSliderChanged(float value) => Raise(value);
 
@@ -38,4 +54,15 @@ public class ExplosionEventChannel : MonoBehaviour
             )
             .SetEase(Ease.InOutCubic);
     }
+
+    public void ToogleSlider()
+    {
+        bool isActive = slider.gameObject.activeSelf;
+        slider.gameObject.SetActive(!isActive);
+
+        if(slider.gameObject.activeSelf)
+            slider.value = currentExplosionValue;
+    }
+
+    public void ResetView() => OnResetViewed.Invoke();
 }

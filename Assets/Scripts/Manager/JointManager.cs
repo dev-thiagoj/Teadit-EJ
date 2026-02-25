@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -8,6 +9,30 @@ public class JointManager : MonoBehaviour
     private GameObject currentJoint;
 
     public UnityEvent<JointContext> OnJointLoaded;
+
+    Tween resetTween;
+
+    private void OnDisable()
+    {
+        ExplosionEventChannel.OnResetViewed.RemoveListener(ResetView);
+    }
+
+    private void Awake()
+    {
+        ExplosionEventChannel.OnResetViewed.AddListener(ResetView);
+    }
+
+    private void ResetView()
+    {
+        if (currentJoint == null)
+            return;
+
+        resetTween?.Kill();
+
+        resetTween = currentJoint.transform
+                        .DOLocalRotate(Vector3.zero, 0.6f)
+                        .SetEase(Ease.OutCubic);
+    }
 
     public void LoadJoint(JointData data)
     {
