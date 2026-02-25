@@ -7,6 +7,16 @@ public class ExplodedViewController : MonoBehaviour
 
     private ExplodablePart[] parts;
 
+    private void OnEnable()
+    {
+        ExplosionEventChannel.OnExplosionChanged.AddListener(SetExplosion);
+    }
+
+    private void OnDisable()
+    {
+        ExplosionEventChannel.OnExplosionChanged.RemoveListener(SetExplosion);
+    }
+
     void Awake()
     {
         parts = GetComponentsInChildren<ExplodablePart>();

@@ -5,6 +5,7 @@ public class CADCameraController : MonoBehaviour
 {
     CADInputActions input;
     CinemachineOrbitalFollow orbital;
+    [SerializeField] JointManager jointManager;
 
     [SerializeField] float orbitSpeed = 0.2f;
     [SerializeField] float panSpeed = 0.01f;
@@ -25,8 +26,17 @@ public class CADCameraController : MonoBehaviour
         orbital = GetComponent<CinemachineOrbitalFollow>();
     }
 
-    void OnEnable() => input.Enable();
-    void OnDisable() => input.Disable();
+    void OnEnable()
+    {
+        input.Enable();
+        jointManager.OnJointLoaded.AddListener(ReceiveJointContext);
+    }
+
+    void OnDisable()
+    {
+        input.Disable();
+        jointManager.OnJointLoaded.RemoveListener(ReceiveJointContext);
+    }
 
     void Update()
     {
@@ -35,14 +45,34 @@ public class CADCameraController : MonoBehaviour
         HandleZoom();
     }
 
+    public void ReceiveJointContext(JointContext context)
+    {
+        modelCenter = context.OrbitPivot;
+        modelRoot = context.Instance.transform;
+    }
+
+    //void HandleOrbit()
+    //{
+    //    if (!input.Camera.OrbitButton.IsPressed()) return;
+
+    //    Vector2 delta = input.Camera.Orbit.ReadValue<Vector2>();
+
+    //    orbital.HorizontalAxis.Value += delta.x * orbitSpeed;
+    //    orbital.VerticalAxis.Value -= delta.y * orbitSpeed;
+    //}
+
+    Transform modelRoot;
     void HandleOrbit()
     {
         if (!input.Camera.OrbitButton.IsPressed()) return;
 
         Vector2 delta = input.Camera.Orbit.ReadValue<Vector2>();
 
-        orbital.HorizontalAxis.Value += delta.x * orbitSpeed;
-        orbital.VerticalAxis.Value -= delta.y * orbitSpeed;
+        float rotX = delta.y * orbitSpeed;
+        float rotY = -delta.x * orbitSpeed;
+
+        modelRoot.Rotate(Vector3.up, rotY, Space.World);
+        modelRoot.Rotate(Vector3.right, rotX, Space.World);
     }
 
     void HandlePan()

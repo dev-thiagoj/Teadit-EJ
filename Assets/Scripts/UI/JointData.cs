@@ -1,16 +1,16 @@
 using UnityEngine;
 
-public class JointData : MonoBehaviour
+[CreateAssetMenu(menuName = "Joints/Joint Data")]
+public class JointData : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public string jointName;
+    public string code;
+    public Sprite thumbnail;
+    public GameObject prefab;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header("Technical Info")]
+    public float diameter;
+    public float maxPressure;
+    public float maxTemperature;
+    public string material;
 }
