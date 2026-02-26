@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 163412022}
   - component: {fileID: 163412023}
   m_Layer: 0
-  m_Name: JointSystem
+  m_Name: JointManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -423,9 +423,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1847223106550799083, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
+      propertyPath: database
+      value: 
+      objectReference: {fileID: 11400000, guid: da90330a49fe99840b89649fea8b4bc3, type: 2}
+    - target: {fileID: 1847223106550799083, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
       propertyPath: jointManager
       value: 
       objectReference: {fileID: 163412023}
+    - target: {fileID: 1847223106550799083, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
+      propertyPath: joints.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3290510373605104651, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -558,7 +566,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8005865717519516785, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:

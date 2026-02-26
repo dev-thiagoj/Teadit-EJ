@@ -1,9 +1,8 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class JointCarouselUI : MonoBehaviour
 {
-    public List<JointData> joints;
+    public JointDatabase database;
 
     public JointItemUI itemPrefab;
     public Transform contentParent;
@@ -19,18 +18,21 @@ public class JointCarouselUI : MonoBehaviour
 
     void BuildCarousel()
     {
-        foreach (var joint in joints)
+        // Limpa o conteúdo antes de gerar (boa prática)
+        foreach (Transform child in contentParent) Destroy(child.gameObject);
+
+        // Lemos os dados diretamente do Database
+        if (database == null || database.Joints == null) return;
+
+        foreach (var joint in database.Joints)
         {
             JointItemUI item = Instantiate(itemPrefab, contentParent);
             item.Setup(joint, this);
         }
 
-        // Seleciona o primeiro automaticamente
         if (contentParent.childCount > 0)
         {
-            contentParent.GetChild(0)
-                .GetComponent<JointItemUI>()
-                .OnClick();
+            contentParent.GetChild(0).GetComponent<JointItemUI>().OnClick();
         }
     }
 
