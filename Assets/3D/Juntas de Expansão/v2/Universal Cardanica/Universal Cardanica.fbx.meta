@@ -1,9 +1,39 @@
 fileFormatVersion: 2
-guid: 57a1c78a63f881b43883344f62047c1c
+guid: 8e61ba1d1a81c674e9b182f024f0afc3
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JEXP_UNIVERSAL_CARDANICA_initialShadingGroup1
+    second: {fileID: 2100000, guid: 43877dbf7e9c2a14d898f328ac3620dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JEXP_UNIVERSAL_CARDANICA_phong1SG1
+    second: {fileID: 2100000, guid: aaffa7c90f0bc52418d393a159e3c6f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JEXP_UNIVERSAL_CARDANICA_phong2SG1
+    second: {fileID: 2100000, guid: 211aa92e40e014c4bbc63aeb55603d5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JEXP_UNIVERSAL_CARDANICA_phongE1SG1
+    second: {fileID: 2100000, guid: 52103d76e8564334f85796d0c806a124, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Blue
+    second: {fileID: 2100000, guid: d3eaf6ae9fed2064a81d21d48edc6363, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: b717b2e4c1b22b749af3ab8b7a135192, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -33,7 +63,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 20
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -91,7 +121,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 20
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

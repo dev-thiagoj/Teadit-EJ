@@ -15,3 +15,5 @@ MonoBehaviour:
   <Joints>k__BackingField:
   - {fileID: 11400000, guid: 76c894c61c4f90f49a02aa5eae36fbf1, type: 2}
   - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
+  - {fileID: 11400000, guid: 3bde23b558bdfa0498144b0964bce11d, type: 2}
+  - {fileID: 11400000, guid: 3ceda2399d826994bb5af2904e745dd3, type: 2}

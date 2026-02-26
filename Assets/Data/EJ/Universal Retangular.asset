@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a9267c1e86451e4cb6b1df05171db18, type: 3}
+  m_Name: Universal Retangular
+  m_EditorClassIdentifier: Assembly-CSharp::JointData
+  jointName: "Universal Ret\xE2ngular"
+  code: 004
+  thumbnail: {fileID: 21300000, guid: 6f2b5b3a7f8356849885546baa67c2cb, type: 3}
+  prefab: {fileID: 6853125069428891005, guid: 9c35a1397ef250e4c83ebaee524493ac, type: 3}
+  diameter: 10
+  maxPressure: 50
+  maxTemperature: 250
+  material: Metal
