@@ -231,6 +231,145 @@ MonoBehaviour:
   itemPrefab: {fileID: 6098334514162310413, guid: 361d0c9cf799df6429ee7b949e9013b7, type: 3}
   contentParent: {fileID: 8688058932257055564}
   jointManager: {fileID: 0}
+--- !u!1 &315241009026850529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3669319396605893036}
+  - component: {fileID: 1815271850604964016}
+  - component: {fileID: 3529122352989954526}
+  m_Layer: 5
+  m_Name: TextBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3669319396605893036
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315241009026850529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3975258636252673518}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.6799, y: 4.6238}
+  m_SizeDelta: {x: 447.6261, y: 548.4221}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1815271850604964016
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315241009026850529}
+  m_CullTransparentMesh: 1
+--- !u!114 &3529122352989954526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315241009026850529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: ' wdo hjoi ho ha ooiahwo howh  nlwah ajh dljhwa ldhawodh ow hwod ho hwo
+    hoawhd oawhd owha owihd oawhd owahd ohwd owhd owahd hwado hawodh owuahd owahd
+    hwad ouhd odwda'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &658585109470899859
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,7 +1081,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 275.53296, y: 88.12903}
+  m_AnchoredPosition: {x: 277.3, y: 88.12903}
   m_SizeDelta: {x: 59.0659, y: 206.2581}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &798737910475539059
@@ -1450,10 +1589,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4631117583594150048}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 5862041737548897337}
+        m_TargetAssemblyTypeName: ExplosionEventChannel, Assembly-CSharp
+        m_MethodName: ToogleSlider
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1474,6 +1613,7 @@ GameObject:
   - component: {fileID: 6233662431931244143}
   - component: {fileID: 1640704916833140715}
   - component: {fileID: 1189929379760802030}
+  - component: {fileID: 5862041737548897337}
   m_Layer: 5
   m_Name: ButtonsContainer
   m_TagString: Untagged
@@ -1567,6 +1707,18 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &5862041737548897337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3601213891067504588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03afd232ba863534f963b89c248d1880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExplosionEventChannel
 --- !u!1 &3997213727069453532
 GameObject:
   m_ObjectHideFlags: 0
@@ -1811,9 +1963,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ExplodedViewController, Assembly-CSharp
-        m_MethodName: SetExplosion
+      - m_Target: {fileID: 5862041737548897337}
+        m_TargetAssemblyTypeName: ExplosionEventChannel, Assembly-CSharp
+        m_MethodName: OnSliderChanged
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2237,7 +2389,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4699429742469824527}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5862041737548897337}
+        m_TargetAssemblyTypeName: ExplosionEventChannel, Assembly-CSharp
+        m_MethodName: ResetView
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6597729348394554744
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,6 +2720,7 @@ GameObject:
   - component: {fileID: 3975258636252673518}
   - component: {fileID: 3927592938848701598}
   - component: {fileID: 1587511574876386806}
+  - component: {fileID: 8005865717519516785}
   m_Layer: 5
   m_Name: InfoPanel
   m_TagString: Untagged
@@ -2576,11 +2741,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 555351186394922527}
+  - {fileID: 3669319396605893036}
   m_Father: {fileID: 3436879227193436183}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1214, y: -12.6313}
+  m_AnchoredPosition: {x: -1211, y: -12.6313}
   m_SizeDelta: {x: 500, y: 606.1674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3927592938848701598
@@ -2604,7 +2770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0.54901963}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2621,6 +2787,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8005865717519516785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8216709221905030998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e2c7b613c2880a4b99663560ba014a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InfoPanelCOntroller
+  button: {fileID: 0}
+  textBox: {fileID: 0}
+  openedPosition: {x: -709, y: -12.63}
 --- !u!1 &8847320236595362103
 GameObject:
   m_ObjectHideFlags: 0
@@ -2878,7 +3059,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2827273633395304075}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5862041737548897337}
+        m_TargetAssemblyTypeName: ExplosionEventChannel, Assembly-CSharp
+        m_MethodName: ChangeView
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &9222706795136154073
 GameObject:
   m_ObjectHideFlags: 0

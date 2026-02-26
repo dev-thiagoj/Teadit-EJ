@@ -9,12 +9,12 @@ public class ExplodedViewController : MonoBehaviour
 
     private void OnEnable()
     {
-        ExplosionEventChannel.OnExplosionChanged.AddListener(SetExplosion);
+        ExplosionUIController.OnExplosionChanged.AddListener(SetExplosion);
     }
 
     private void OnDisable()
     {
-        ExplosionEventChannel.OnExplosionChanged.RemoveListener(SetExplosion);
+        ExplosionUIController.OnExplosionChanged.RemoveListener(SetExplosion);
     }
 
     void Awake()

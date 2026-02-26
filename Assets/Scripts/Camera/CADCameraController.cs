@@ -1,3 +1,4 @@
+using System;
 using Unity.Cinemachine;
 using UnityEngine;
 
@@ -20,6 +21,10 @@ public class CADCameraController : MonoBehaviour
     [SerializeField] float minZoom = 1f;
     [SerializeField] float maxZoom = 10f;
 
+    // dados iniciais para Reset View
+    Vector3 initialFollowPosition;
+    float initialRadius;
+
     void Awake()
     {
         input = new CADInputActions();
@@ -30,12 +35,16 @@ public class CADCameraController : MonoBehaviour
     {
         input.Enable();
         jointManager.OnJointLoaded.AddListener(ReceiveJointContext);
+        ExplosionUIController.OnResetViewed.RemoveListener(OnResetViewFromUI);
+        ExplosionUIController.OnResetViewed.AddListener(OnResetViewFromUI);
     }
+
 
     void OnDisable()
     {
         input.Disable();
         jointManager.OnJointLoaded.RemoveListener(ReceiveJointContext);
+        ExplosionUIController.OnResetViewed.RemoveListener(OnResetViewFromUI);
     }
 
     void Update()
@@ -44,11 +53,25 @@ public class CADCameraController : MonoBehaviour
         HandlePan();
         HandleZoom();
     }
+    private void OnResetViewFromUI()
+    {
+        // 🔄 Reset pan
+        followTarget.position = initialFollowPosition;
+
+        // 🔄 Reset zoom
+        orbital.Radius = initialRadius;
+    }
 
     public void ReceiveJointContext(JointContext context)
     {
+        if (context == null) 
+            return;
+
         modelCenter = context.OrbitPivot;
         modelRoot = context.Instance.transform;
+
+        initialFollowPosition = followTarget.position;
+        initialRadius = orbital.Radius;
     }
 
     //void HandleOrbit()

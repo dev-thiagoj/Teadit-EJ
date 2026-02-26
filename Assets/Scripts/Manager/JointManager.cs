@@ -14,12 +14,12 @@ public class JointManager : MonoBehaviour
 
     private void OnDisable()
     {
-        ExplosionEventChannel.OnResetViewed.RemoveListener(ResetView);
+        ExplosionUIController.OnResetViewed.RemoveListener(ResetView);
     }
 
     private void Awake()
     {
-        ExplosionEventChannel.OnResetViewed.AddListener(ResetView);
+        ExplosionUIController.OnResetViewed.AddListener(ResetView);
     }
 
     private void ResetView()

@@ -1,15 +1,16 @@
 using DG.Tweening;
-using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-public class ExplosionEventChannel : MonoBehaviour
+public class ExplosionUIController : MonoBehaviour
 {
     private float currentExplosionValue = 0f;
     private Tween explosionTween;
 
     Slider slider;
+
+    public float CurrentValue => currentExplosionValue;
 
     private void Awake()
     {
@@ -60,9 +61,13 @@ public class ExplosionEventChannel : MonoBehaviour
         bool isActive = slider.gameObject.activeSelf;
         slider.gameObject.SetActive(!isActive);
 
-        if(slider.gameObject.activeSelf)
+        if (slider.gameObject.activeSelf)
             slider.value = currentExplosionValue;
     }
 
-    public void ResetView() => OnResetViewed.Invoke();
+    public void ResetView()
+    {
+        AnimateExplosion(0);
+        OnResetViewed.Invoke();
+    }
 }

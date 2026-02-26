@@ -382,23 +382,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &274822515 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3601213891067504588, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-  m_PrefabInstance: {fileID: 303033828}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &274822520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 274822515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03afd232ba863534f963b89c248d1880, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ExplosionEventChannel
 --- !u!1001 &303033828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -407,33 +390,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 169457188080843545, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+    - target: {fileID: 422576590284332861, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
+      propertyPath: m_VertexColorAlwaysGammaSpace
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 169457188080843545, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 169457188080843545, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 274822520}
-    - target: {fileID: 169457188080843545, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 169457188080843545, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResetView
-      objectReference: {fileID: 0}
-    - target: {fileID: 169457188080843545, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ExplosionEventChannel, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 169457188080843545, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+    - target: {fileID: 422576590284332861, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1215460888341963569, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
       propertyPath: m_AnchorMax.y
@@ -459,50 +422,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1746013458074319490, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 274822520}
-    - target: {fileID: 1746013458074319490, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnSliderChanged
-      objectReference: {fileID: 0}
-    - target: {fileID: 1746013458074319490, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ExplosionEventChannel, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 1847223106550799083, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
       propertyPath: jointManager
       value: 
       objectReference: {fileID: 163412023}
-    - target: {fileID: 2314728355330988589, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2314728355330988589, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2314728355330988589, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 274822520}
-    - target: {fileID: 2314728355330988589, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2314728355330988589, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeView
-      objectReference: {fileID: 0}
-    - target: {fileID: 2314728355330988589, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ExplosionEventChannel, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 2314728355330988589, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 3290510373605104651, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -607,22 +530,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4761729889319139998, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4761729889319139998, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 274822520}
-    - target: {fileID: 4761729889319139998, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ToogleSlider
-      objectReference: {fileID: 0}
-    - target: {fileID: 4761729889319139998, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ExplosionEventChannel, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 6597729348394554744, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
       propertyPath: m_Name
       value: === CANVAS ===
@@ -655,9 +562,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3601213891067504588, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4631117583594150048, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 274822520}
+      addedObject: {fileID: 2107008453}
   m_SourcePrefab: {fileID: 100100000, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
 --- !u!1 &460729043
 GameObject:
@@ -1183,6 +1090,24 @@ Transform:
   - {fileID: 163412022}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2107008450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4631117583594150048, guid: d0f65b9fb6a26ad43bedd3f58833b734, type: 3}
+  m_PrefabInstance: {fileID: 303033828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2107008453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107008450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34310d29c679018468669928004cb2cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlideValue
+  controller: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
