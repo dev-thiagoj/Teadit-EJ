@@ -1,5 +1,6 @@
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class JointCarouselUI : MonoBehaviour
@@ -22,6 +23,8 @@ public class JointCarouselUI : MonoBehaviour
     private RectTransform contentRect;
     private float itemWidth;
     private JointItemUI currentSelected;
+
+    [HideInInspector] public UnityEvent<JointItemUI> OnJointSelected;
 
     void Start()
     {
@@ -128,5 +131,7 @@ public class JointCarouselUI : MonoBehaviour
         currentSelected.SetSelected(true);
 
         jointManager.LoadJoint(data);
+
+        OnJointSelected?.Invoke(currentSelected);
     }
 }

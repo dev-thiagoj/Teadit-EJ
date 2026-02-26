@@ -1,15 +1,36 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class JointItemUI : MonoBehaviour
 {
-    public Image thumbnailImage;
-    public TMP_Text nameText;
-    public GameObject selectionHighlight;
+    JointCarouselUI controller;
+
+    [SerializeField] Button button;
+    [SerializeField] Image thumbnailImage;
+    [SerializeField] TMP_Text nameText;
+    [SerializeField] GameObject selectionHighlight;
 
     private JointData data;
     private JointCarouselUI carousel;
+
+    private void Awake()
+    {
+        controller = GetComponentInParent<JointCarouselUI>();
+        button.onClick.AddListener(OnClick);
+    }
+
+    private void Start()
+    {
+        controller.OnJointSelected.AddListener(OnSomeJointSelected);
+    }
+
+    private void OnSomeJointSelected(JointItemUI arg0)
+    {
+        bool status = arg0 == this;
+        selectionHighlight.SetActive(status);
+    }
 
     public void Setup(JointData jointData, JointCarouselUI parent)
     {
