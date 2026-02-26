@@ -212,22 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5158eaf7682463243aaea45d5d7b916d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JointCarouselUI
-  joints:
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
-  - {fileID: 11400000, guid: f5fbfa8a79119c44b84076cbe1477593, type: 2}
+  database: {fileID: 11400000, guid: da90330a49fe99840b89649fea8b4bc3, type: 2}
   itemPrefab: {fileID: 6098334514162310413, guid: 361d0c9cf799df6429ee7b949e9013b7, type: 3}
   contentParent: {fileID: 8688058932257055564}
   jointManager: {fileID: 0}
@@ -1883,6 +1868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6046026394332379440}
   - component: {fileID: 1746013458074319490}
+  - component: {fileID: 6870632882904131270}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -1975,6 +1961,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6870632882904131270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4631117583594150048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34310d29c679018468669928004cb2cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SlideValue
+  controller: {fileID: 0}
 --- !u!1 &5061094004780173748
 GameObject:
   m_ObjectHideFlags: 0
@@ -2460,8 +2459,8 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: -1
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -2720,7 +2719,7 @@ GameObject:
   - component: {fileID: 3975258636252673518}
   - component: {fileID: 3927592938848701598}
   - component: {fileID: 1587511574876386806}
-  - component: {fileID: 8005865717519516785}
+  - component: {fileID: 8572443743656144146}
   m_Layer: 5
   m_Name: InfoPanel
   m_TagString: Untagged
@@ -2787,7 +2786,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8005865717519516785
+--- !u!114 &8572443743656144146
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2796,12 +2795,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8216709221905030998}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e2c7b613c2880a4b99663560ba014a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 5fd08be44b8081d4f92aa078e74ade12, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InfoPanelCOntroller
+  m_EditorClassIdentifier: Assembly-CSharp::InfoPanel
   button: {fileID: 0}
   textBox: {fileID: 0}
-  openedPosition: {x: -709, y: -12.63}
+  openedPosition: {x: -713, y: -12.6313}
+  slideDuration: 0.4
 --- !u!1 &8847320236595362103
 GameObject:
   m_ObjectHideFlags: 0
