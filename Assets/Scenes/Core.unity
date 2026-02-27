@@ -930,6 +930,9 @@ MonoBehaviour:
   maxPanDistance: 1
   minZoom: 1
   maxZoom: 8
+  dynamicFraming: 1
+  framingSpeed: 5
+  framingMargin: 1.5
 --- !u!114 &1678186649
 MonoBehaviour:
   m_ObjectHideFlags: 0

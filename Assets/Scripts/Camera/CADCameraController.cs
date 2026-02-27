@@ -165,6 +165,8 @@ public class CADCameraController : MonoBehaviour
     }
     private void OnExplosionChanged(float arg0)
     {
+        return;
+
         if (modelRoot == null)
             return;
 
