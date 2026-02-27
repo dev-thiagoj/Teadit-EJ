@@ -55,6 +55,7 @@ public class JointManager : MonoBehaviour
         // 🔥 adicionamos os pivôs
         context.OrbitPivot = refs.orbitPivot;
         context.PanPivot = refs.panPivot;
+        context.JointName = data.jointName;
 
         OnJointLoaded?.Invoke(context);
 

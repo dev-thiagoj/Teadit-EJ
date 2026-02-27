@@ -9,6 +9,7 @@ public class JointContext
     public Transform TargetTransform { get; private set; }
     public Transform OrbitPivot;
     public Transform PanPivot;
+    public string JointName;
 
     public JointContext(GameObject instance)
     {
