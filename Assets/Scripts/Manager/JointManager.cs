@@ -1,11 +1,14 @@
 using DG.Tweening;
+using System.Collections.Generic;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.Events;
-using System.Runtime.InteropServices;
 
 public class JointManager : MonoBehaviour
 {
-    public Transform spawnPoint;
+    [SerializeField] Transform spawnPoint;
+
+    [SerializeField] private CinemachineTargetGroup targetGroup;
 
     private GameObject currentJoint;
 
@@ -37,9 +40,11 @@ public class JointManager : MonoBehaviour
 
     public void LoadJoint(JointData data)
     {
+        // Remove anterior
         if (currentJoint != null)
             Destroy(currentJoint);
 
+        // Instancia nova
         currentJoint = Instantiate(
             data.prefab,
             spawnPoint.position,
@@ -47,32 +52,43 @@ public class JointManager : MonoBehaviour
             spawnPoint
         );
 
-        JointViewReferences refs =
-            currentJoint.GetComponent<JointViewReferences>();
+        // Atualiza Target Group
+        SetupTargetGroup(currentJoint);
 
+        // Cria contexto (se ainda quiser usar para UI etc)
         JointContext context = new JointContext(currentJoint);
-
-        // 🔥 adicionamos os pivôs
-        context.OrbitPivot = refs.orbitPivot;
-        context.PanPivot = refs.panPivot;
         context.JointName = data.jointName;
 
         OnJointLoaded?.Invoke(context);
-
-        ResetExplosion();
-        ResetCamera();
     }
 
-    void ResetExplosion()
+    private void SetupTargetGroup(GameObject jointRoot)
     {
-        // Chame seu sistema de explosão aqui
-        // Ex: currentJoint.GetComponent<ExplosionController>()?.Reset();
-    }
+        if (targetGroup == null)
+            return;
 
-    void ResetCamera()
-    {
-        // Chame seu sistema de framing aqui
-        // Ex: CameraController.Instance.FrameTarget(currentJoint);
+        // Limpa membros atuais
+        targetGroup.Targets.Clear();
+
+        var renderers = jointRoot.GetComponentsInChildren<Renderer>();
+
+        List<CinemachineTargetGroup.Target> newTargets =
+            new List<CinemachineTargetGroup.Target>();
+
+        foreach (var r in renderers)
+        {
+            CinemachineTargetGroup.Target t =
+                new CinemachineTargetGroup.Target
+                {
+                    Object = r.transform,
+                    Weight = 1f,
+                    Radius = r.bounds.extents.magnitude
+                };
+
+            newTargets.Add(t);
+        }
+
+        targetGroup.Targets = newTargets;
     }
 }
 
