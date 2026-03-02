@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a9267c1e86451e4cb6b1df05171db18, type: 3}
   m_Name: Axial Circular Simples
   m_EditorClassIdentifier: Assembly-CSharp::JointData
-  jointName: "Card\xE2nica"
-  code: 002
+  jointName: Axial Circular Simples
+  code: 007
   thumbnail: {fileID: 21300000, guid: c368a1589f74ced44904aacc67f80fd9, type: 3}
-  prefab: {fileID: 5174420551135245814, guid: b8ae14d818e069443b79113b3520e21d, type: 3}
+  prefab: {fileID: 284114803043074591, guid: a86eca0855073e74ba1787b9cff30edb, type: 3}
   diameter: 10
   maxPressure: 50
   maxTemperature: 250
