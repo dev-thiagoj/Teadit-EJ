@@ -32,6 +32,8 @@ public class NewCADCameraController : MonoBehaviour
     [SerializeField] private float panLimitUp = 2f;
     [Tooltip("Distância máxima que a câmera pode DESCER a partir do ponto inicial (ex: 0.5).")]
     [SerializeField] private float panLimitDown = 1f;
+    [Tooltip("Inverte a direção do movimento horizontal do Pan.")]
+    [SerializeField] private bool invertPan = true;
 
     private float currentDistance = 2f;
     private Vector3 initialPivotPosition;
@@ -112,8 +114,11 @@ public class NewCADCameraController : MonoBehaviour
 
         Vector2 delta = input.Camera.Pan.ReadValue<Vector2>();
 
-        float panX = delta.x * panSpeed;
-        float panY = delta.y * panSpeed;
+        // Se invertPan for verdadeiro, a direção será -1 (invertendo X e Y). Senão, será 1 (normal).
+        float direction = invertPan ? -1f : 1f;
+
+        float panX = delta.x * panSpeed * direction;
+        float panY = delta.y * panSpeed * direction;
 
         // Calcula a nova posição desejada
         Vector3 newOffset = thirdPersonFollow.ShoulderOffset + new Vector3(panX, panY, 0f);
