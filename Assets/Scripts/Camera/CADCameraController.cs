@@ -83,11 +83,14 @@ public class CADCameraController : MonoBehaviour
 
         Vector2 delta = input.Camera.Orbit.ReadValue<Vector2>();
 
-        float rotX = delta.y * orbitSpeed;
+        // Lemos apenas o movimento horizontal do mouse (delta.x)
         float rotY = -delta.x * orbitSpeed;
 
+        // Aplicamos a rotação apenas no eixo Y (Vector3.up)
         modelRoot.Rotate(Vector3.up, rotY, Space.World);
-        modelRoot.Rotate(Vector3.right, rotX, Space.World);
+
+        // A linha abaixo foi removida para travar a rotação em X:
+        // modelRoot.Rotate(Vector3.right, rotX, Space.World);
     }
 
     // =========================================================
