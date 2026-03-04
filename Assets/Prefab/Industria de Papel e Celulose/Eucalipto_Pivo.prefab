@@ -63,6 +63,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5232344687210130075}
     m_Modifications:
+    - target: {fileID: 2690799081280799420, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2808610074462909856, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3273809438117817576, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.011
@@ -70,6 +78,10 @@ PrefabInstance:
     - target: {fileID: 3273809438117817576, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4461794013056607200, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5199826522152741136, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -83,6 +95,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eucalipto
       objectReference: {fileID: 0}
+    - target: {fileID: 5298648352963103148, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6502770142406134477, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0038
@@ -90,6 +106,18 @@ PrefabInstance:
     - target: {fileID: 6502770142406134477, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.0136
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739824498551892913, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739824498551892913, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
+      propertyPath: m_RayTracingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7739824498551892913, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8037989594365162511, guid: 3fcc2d9ce4666414fb7443aa5ecacfca, type: 3}
       propertyPath: m_LocalScale.x
