@@ -1,5 +1,67 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2235453420572218559
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8540009771574167151}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00000012101655
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+      propertyPath: m_Name
+      value: Nigeria_LNGV2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+--- !u!4 &1769726051805492052 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 02f2211fb7ec5e14289809bcc2abaf01, type: 3}
+  m_PrefabInstance: {fileID: 2235453420572218559}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5010213152835827105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10,7 +72,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 57a1c78a63f881b43883344f62047c1c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.54
+      value: -2.038
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 57a1c78a63f881b43883344f62047c1c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -93,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExplodablePart
   localDirection: {x: 0, y: 0, z: 1}
-  distanceMultiplier: 2.5
+  distanceMultiplier: 0
 --- !u!1 &1336576918646297816 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6272287163491213689, guid: 57a1c78a63f881b43883344f62047c1c, type: 3}
@@ -112,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExplodablePart
   localDirection: {x: 0, y: 0, z: 1}
-  distanceMultiplier: 0
+  distanceMultiplier: 1
 --- !u!1 &1834713985734514626 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6697394666744144483, guid: 57a1c78a63f881b43883344f62047c1c, type: 3}
@@ -131,7 +193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExplodablePart
   localDirection: {x: 0, y: 0, z: -1}
-  distanceMultiplier: 0.5
+  distanceMultiplier: 1
 --- !u!1 &2218710042128915190 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6579103016638181207, guid: 57a1c78a63f881b43883344f62047c1c, type: 3}
@@ -150,7 +212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExplodablePart
   localDirection: {x: 0, y: 0, z: -1}
-  distanceMultiplier: 1
+  distanceMultiplier: 2
 --- !u!4 &4759569423062897226 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 57a1c78a63f881b43883344f62047c1c, type: 3}
@@ -192,7 +254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExplodablePart
   localDirection: {x: 0, y: 0, z: 1}
-  distanceMultiplier: 0.5
+  distanceMultiplier: 2
 --- !u!1001 &8767066406242936692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -251,6 +313,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1094046856332566811, guid: a6c3207ce410a7f46801a7e737774a51, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4759569423062897226}
+    - targetCorrespondingSourceObject: {fileID: 1094046856332566811, guid: a6c3207ce410a7f46801a7e737774a51, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1769726051805492052}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6c3207ce410a7f46801a7e737774a51, type: 3}
 --- !u!4 &8540009771574167151 stripped

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a9267c1e86451e4cb6b1df05171db18, type: 3}
   m_Name: Pressao Balanceada em Linha
   m_EditorClassIdentifier: Assembly-CSharp::JointData
-  jointName: "Card\xE2nica"
+  jointName: "Press\xE3o Balanceada em Linha"
   code: 008
   thumbnail: {fileID: 21300000, guid: c368a1589f74ced44904aacc67f80fd9, type: 3}
   prefab: {fileID: 6896279667517320980, guid: 6b30d798fe2c9d8409c37f9ff866dadf, type: 3}
