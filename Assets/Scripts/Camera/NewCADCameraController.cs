@@ -23,6 +23,10 @@ public class NewCADCameraController : MonoBehaviour
     [SerializeField] private float orbitSpeed = 0.2f;
     [Tooltip("Se verdadeiro, trava a rotação para acontecer apenas no eixo Y (giro lateral).")]
     [SerializeField] private bool lockRotationY = false;
+    private enum AxisLock { None, Horizontal, Vertical }
+    private AxisLock currentLock = AxisLock.None;
+    private float currentRotX;
+    private float currentRotY;
 
     [Header("Pan Settings (Relativo ao Início)")]
     [SerializeField] private float panSpeed = 0.05f;
@@ -39,6 +43,20 @@ public class NewCADCameraController : MonoBehaviour
     private Vector3 initialPivotPosition;
     private Quaternion initialModelRotation;
     private Vector3 initialShoulderOffset;
+      
+    void OnEnable()
+    {
+        input.Enable();
+        jointManager.OnJointLoaded.AddListener(ReceiveJointContext);
+        ExplosionUIController.OnResetViewed.AddListener(ResetView);
+    }
+
+    void OnDisable()
+    {
+        input.Disable();
+        jointManager.OnJointLoaded.RemoveListener(ReceiveJointContext);
+        ExplosionUIController.OnResetViewed.RemoveListener(ResetView);
+    }
 
     void Awake()
     {
@@ -59,18 +77,13 @@ public class NewCADCameraController : MonoBehaviour
             initialPivotPosition = cameraPivot.position;
     }
 
-    void OnEnable()
+    private void Start()
     {
-        input.Enable();
-        jointManager.OnJointLoaded.AddListener(ReceiveJointContext);
-        ExplosionUIController.OnResetViewed.AddListener(ResetView);
-    }
-
-    void OnDisable()
-    {
-        input.Disable();
-        jointManager.OnJointLoaded.RemoveListener(ReceiveJointContext);
-        ExplosionUIController.OnResetViewed.RemoveListener(ResetView);
+        if (modelRoot != null)
+        {
+            currentRotX = modelRoot.eulerAngles.x;
+            currentRotY = modelRoot.eulerAngles.y;
+        }
     }
 
     // Carrega a peça como no seu script original
@@ -92,20 +105,41 @@ public class NewCADCameraController : MonoBehaviour
     private void HandleOrbit()
     {
         if (modelRoot == null) return;
-        if (!input.Camera.OrbitButton.IsPressed()) return;
+
+        // Reseta a trava ao soltar o clique
+        if (!input.Camera.OrbitButton.IsPressed())
+        {
+            currentLock = AxisLock.None;
+            return;
+        }
 
         Vector2 delta = input.Camera.Orbit.ReadValue<Vector2>();
 
-        // A rotação lateral (Eixo Y) acontece sempre
-        float rotY = -delta.x * orbitSpeed;
-        modelRoot.Rotate(Vector3.up, rotY, Space.World);
-
-        // A rotação vertical (Eixo X) só acontece se a trava estiver DESLIGADA
-        if (!lockRotationY)
+        // Trava de Intenção: Decide o eixo nos primeiros milímetros do arraste
+        if (currentLock == AxisLock.None && delta.sqrMagnitude > 0.1f)
         {
-            float rotX = delta.y * orbitSpeed;
-            modelRoot.Rotate(Vector3.right, rotX, Space.World);
+            if (Mathf.Abs(delta.x) > Mathf.Abs(delta.y))
+                currentLock = AxisLock.Horizontal;
+            else
+                currentLock = AxisLock.Vertical;
         }
+
+        // Soma os valores de rotação APENAS nas nossas variáveis numéricas
+        if (currentLock == AxisLock.Horizontal)
+        {
+            currentRotY += -delta.x * orbitSpeed;
+        }
+        else if (currentLock == AxisLock.Vertical)
+        {
+            if (!lockRotationY)
+            {
+                currentRotX += delta.y * orbitSpeed;
+            }
+        }
+
+        // A MÁGICA: Constrói uma rotação nova a cada frame. 
+        // O Z será literalmente impossível de sair do zero!
+        modelRoot.rotation = Quaternion.Euler(currentRotX, currentRotY, 0f);
     }
 
     private void HandlePan()

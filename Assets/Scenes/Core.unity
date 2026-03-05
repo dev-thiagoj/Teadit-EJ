@@ -170,7 +170,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -269,7 +269,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -368,7 +368,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -467,7 +467,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -566,7 +566,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -665,7 +665,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -764,7 +764,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -863,7 +863,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -962,7 +962,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1061,7 +1061,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1160,7 +1160,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1259,7 +1259,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1358,7 +1358,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1457,7 +1457,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1556,7 +1556,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1655,7 +1655,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1754,7 +1754,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1853,7 +1853,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2097,7 +2097,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2196,7 +2196,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2295,7 +2295,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2711,7 +2711,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2871,7 +2871,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2970,7 +2970,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3069,7 +3069,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3168,7 +3168,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3267,7 +3267,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3366,7 +3366,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3465,7 +3465,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3564,7 +3564,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3663,7 +3663,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3762,7 +3762,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3861,7 +3861,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3960,7 +3960,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4059,7 +4059,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4158,7 +4158,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4257,7 +4257,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4356,7 +4356,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4455,7 +4455,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4554,7 +4554,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4653,7 +4653,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4752,7 +4752,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4851,7 +4851,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4950,7 +4950,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5049,7 +5049,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5148,7 +5148,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5247,7 +5247,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5346,7 +5346,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5445,7 +5445,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5544,7 +5544,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5643,7 +5643,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5742,7 +5742,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5841,7 +5841,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5940,7 +5940,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6039,7 +6039,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6138,7 +6138,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6237,7 +6237,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6336,7 +6336,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6435,7 +6435,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6534,7 +6534,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6633,7 +6633,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6732,7 +6732,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6831,7 +6831,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6930,7 +6930,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7029,7 +7029,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7128,7 +7128,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7227,7 +7227,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7326,7 +7326,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7425,7 +7425,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7524,7 +7524,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7623,7 +7623,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7722,7 +7722,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7821,7 +7821,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7920,7 +7920,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8019,7 +8019,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8118,7 +8118,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8217,7 +8217,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8316,7 +8316,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8415,7 +8415,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8545,7 +8545,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8644,7 +8644,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8748,7 +8748,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8847,7 +8847,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -8946,7 +8946,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9045,7 +9045,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9144,7 +9144,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9243,7 +9243,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9342,7 +9342,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9441,7 +9441,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9540,7 +9540,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9639,7 +9639,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9738,7 +9738,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9837,7 +9837,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9936,7 +9936,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10035,7 +10035,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10134,7 +10134,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10233,7 +10233,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10332,7 +10332,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10431,7 +10431,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10561,7 +10561,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10660,7 +10660,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10759,7 +10759,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10858,7 +10858,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -10957,7 +10957,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11056,7 +11056,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11155,7 +11155,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11254,7 +11254,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11353,7 +11353,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11452,7 +11452,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11551,7 +11551,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11650,7 +11650,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11749,7 +11749,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11848,7 +11848,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11947,7 +11947,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12095,7 +12095,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12194,7 +12194,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12293,7 +12293,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12392,7 +12392,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12491,7 +12491,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12590,7 +12590,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12689,7 +12689,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12788,7 +12788,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12887,7 +12887,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12986,7 +12986,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13085,7 +13085,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13184,7 +13184,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13283,7 +13283,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13382,7 +13382,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13481,7 +13481,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13580,7 +13580,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13679,7 +13679,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13778,7 +13778,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13877,7 +13877,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -13976,7 +13976,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14075,7 +14075,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14174,7 +14174,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14273,7 +14273,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14372,7 +14372,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14471,7 +14471,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14570,7 +14570,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14669,7 +14669,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14768,7 +14768,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14867,7 +14867,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -14966,7 +14966,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15065,7 +15065,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15164,7 +15164,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15263,7 +15263,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15362,7 +15362,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15461,7 +15461,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15560,7 +15560,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15659,7 +15659,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15758,7 +15758,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15857,7 +15857,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15956,7 +15956,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16055,7 +16055,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16154,7 +16154,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16253,7 +16253,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16352,7 +16352,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16451,7 +16451,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16550,7 +16550,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16649,7 +16649,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16748,7 +16748,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16847,7 +16847,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -16980,7 +16980,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17079,7 +17079,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17178,7 +17178,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17277,7 +17277,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17376,7 +17376,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17475,7 +17475,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17574,7 +17574,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17673,7 +17673,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17772,7 +17772,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17871,7 +17871,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -17970,7 +17970,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18069,7 +18069,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18168,7 +18168,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18267,7 +18267,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18366,7 +18366,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18465,7 +18465,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18564,7 +18564,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18663,7 +18663,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18762,7 +18762,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18861,7 +18861,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -18960,7 +18960,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19059,7 +19059,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19158,7 +19158,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19257,7 +19257,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19356,7 +19356,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19455,7 +19455,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19554,7 +19554,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19653,7 +19653,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19752,7 +19752,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19851,7 +19851,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -19950,7 +19950,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20049,7 +20049,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20148,7 +20148,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20247,7 +20247,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20346,7 +20346,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20445,7 +20445,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20544,7 +20544,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20643,7 +20643,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20742,7 +20742,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20841,7 +20841,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -20940,7 +20940,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21039,7 +21039,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21138,7 +21138,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21237,7 +21237,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21336,7 +21336,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21435,7 +21435,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21534,7 +21534,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21633,7 +21633,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21732,7 +21732,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21831,7 +21831,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -21930,7 +21930,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22029,7 +22029,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22128,7 +22128,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22227,7 +22227,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22326,7 +22326,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -22425,7 +22425,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -34673,6 +34673,42 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 8664828637142655086, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8664828637142655086, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.408783
+      objectReference: {fileID: 0}
+    - target: {fileID: 8664828637142655086, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70490324
+      objectReference: {fileID: 0}
+    - target: {fileID: 8664828637142655086, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.70930207
+      objectReference: {fileID: 0}
+    - target: {fileID: 8664828637142655086, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0013513109
+      objectReference: {fileID: 0}
+    - target: {fileID: 8664828637142655086, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0004260049
+      objectReference: {fileID: 0}
+    - target: {fileID: 8664828637142655086, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.384
+      objectReference: {fileID: 0}
+    - target: {fileID: 8664828637142655086, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -21.963013
+      objectReference: {fileID: 0}
+    - target: {fileID: 8664828637142655086, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 22.037994
+      objectReference: {fileID: 0}
     - target: {fileID: 8707420196188238235, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -35036,6 +35072,381 @@ PrefabInstance:
     - {fileID: -3824974996824756987, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
     - {fileID: -2572967989333021709, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
     - {fileID: 6479439273578550507, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7222588922248056465, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3167230985398927861, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1900293161290579977, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6125382022718458957, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5962756237521792319, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8250057904465780366, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6335115467834265346, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3920515647385733452, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3967268406104687077, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7951689648783227984, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4973960779239192895, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8990972900297584930, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3836448454959156911, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1299101769370362031, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5363309438361050149, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -749939314015913565, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4119492322712426167, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -912859332690920131, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7927966513534078549, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3096102386257390341, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6471828563670051054, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2595490039602140687, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2450445681639588234, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2066041408023025109, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5719970621096537716, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 33167872505871935, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2225619549767906186, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2025627479145299949, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7319156866490452608, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6941995532466327935, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3015188419505443364, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3755141494105908849, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4685146533912762260, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6447112894871958827, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6859248504492120745, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4879863987821508874, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8293819345542833651, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7307320914552937541, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4988207595445806967, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4513494212146413123, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3825616644623436695, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8196772047770532367, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8994698021680777577, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4635885561772585514, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7657277077842691987, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 726345127481108085, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6516296587499530623, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4247276706203023608, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7303044964001402882, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1920839674140148121, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7495641580080468757, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7696924632888097927, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 863411150803803539, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8372600904966795254, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3820847469286332363, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7751033068384872088, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3545630899989817346, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3216828096137604685, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5677323140238032066, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2834624814976163040, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5311473056502821434, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1375806604929663727, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 188579263892332145, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8756363380675060105, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8258621546037487795, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -851008077083298210, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5024618408921283608, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3369715572291589512, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7787458898153761939, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 9044905939099110380, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8917295149083371591, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5271376377702616758, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 910250827237760440, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1480656205777037734, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6761048356745789673, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1405853759415712266, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3181880520445657696, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1631693234985684596, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -483494988483378877, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7323974392872561680, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6139974677054857239, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -673616554291641360, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5983118746138319074, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 9183013318656270859, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1357046144828159512, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4086519474889581323, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5588384744717965997, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4400508781912355966, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1453304267180740158, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3225086859258631386, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3168374992216629859, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8754161302170980070, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3423763464387547963, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3387870520936063902, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6185513541505201649, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3754163682225355929, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8649266688515046383, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2430542934560648323, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8372806733970446918, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2292941780770443222, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5985801511215568669, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6222830687329690482, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8167470271526987542, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1589139541382719619, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8550473442050948948, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8525494599039217483, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7732477871206276768, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1929463710257271027, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4702635465300889471, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4070660244783548340, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3884826131698480091, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7204182770350963687, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6425517246316356466, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8865485995118640912, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -685952557680273731, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8515518807299489273, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2684249239679466763, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1719596544916679474, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8923567477842193757, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8758560601730561473, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8737886070810485705, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1448378430932111894, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5487324814902562576, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8242420751864314996, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7157825214049430270, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5534707970892660645, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3267107189251875869, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6408406098931499427, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8232781491865941408, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5212756456634687088, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8589252606195417896, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 9175059728608742880, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6885252061795742800, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8999104315128025932, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -180231483257323370, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1430379549610353356, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2416696590757629362, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4968826980664026249, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2170223082976853561, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1231215865175665147, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4776920804728583794, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2566498065847717650, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5428320585076960463, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5447525673641849699, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2883643373494894168, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6738262855511835023, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8773689803632310095, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 319542449444435841, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3458207052086524192, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3125391937000336283, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2715427681412749583, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6730414212787939109, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7992925403831169472, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1595865332161919523, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2761156284260521834, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3472703652599397323, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3167841227916185969, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7933568113446170293, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7999153982261164402, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5281698217006451821, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -91266814379122455, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4773603182224306330, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2497194214368710004, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5600620929489659088, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3710437367178909662, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1051473753272183605, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6393302872341425179, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -122498089136187702, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8322657730552070267, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1678163896659563414, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5229529706353408538, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1293640363198639511, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5625435270031570486, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3498497009174652957, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5485633747394694193, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3487595103946454353, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1619397897775904729, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5254970186573445236, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 334883735265456427, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2882029127957817921, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6485532384444846038, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2379928859933057376, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4255553170171216211, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1207349838474939976, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6239023248503967508, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1564879995157119759, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 508228467550884842, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4865904531790368104, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 9057034868400980177, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7918981588765962831, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 576267366312652504, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7203188855981168341, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -9029798762294517038, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 9084868926689836741, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6269620779165792445, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -531055555244273917, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3773871392607103787, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7511579145138946952, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3232198901508711096, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2030724148660713210, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2842152702938482001, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7476433237984699847, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1789412109868391199, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6494558643633285094, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6163787225355820079, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3746755945150664170, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1030340603074513895, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1053093713595930021, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7902099847269827702, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -802438410590413229, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4990390935005177547, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1822007519467148115, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6909359287066502304, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8000818719356718166, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4306464566759268317, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -9028367648845611741, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2500196125208144393, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2590418974573260335, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5973640296652225703, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3435227202469447396, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -264407811565439572, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -383656826425754047, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8485697150388113035, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1750812418624563980, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4087756587580929386, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1916688739340503222, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 840780499452596404, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6357293630930254303, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4611477283230505915, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 963620189108059936, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6017744427528865115, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5747411758668494497, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2516506403343575977, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6437377330068717941, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8390947787664111833, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1990528194106982470, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4217424823483013581, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6075162942071874324, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1930217589040069859, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8092958537060144239, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -654896263924000130, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7918243641032716851, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2115693635082308918, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1314318516636141523, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7888727578537711339, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6002303898129016609, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1125002755321059410, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7620597264764905848, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8503331050415488619, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6397482068680172100, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2090896246224023166, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -100668156582634415, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4516497093808723139, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4297747785306993862, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3197791162946112955, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4818181939207728510, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1051885183420331904, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1316932742550831612, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7077074340335459424, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5503914685713973221, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -55090920767607564, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7442074341227421937, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7095415443750463163, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4072217754261726426, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4151047793181923232, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4696496110714415222, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8918410196998779385, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4184392356658756970, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4384605538403653858, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -6922583087187141477, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 868699363369451667, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1309098947534968200, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3405714436622733863, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2502695448623485704, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2333728636632162658, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 226607402764251245, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3684274913373920826, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4199412555697639268, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 974744691354851769, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6635347926434289275, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5765545033823275423, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2212472759754572948, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8807914099578085851, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4614513931204387608, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5899520577144366734, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5367361493453781138, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7819339317646699096, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1014216274969579, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3862661824683419669, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5258211742209048938, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5314722311529842376, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4868204318290438822, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4167894151064802155, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4246212443520749375, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -254616139041756068, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 511792287773909067, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8746252075562272019, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3408679918881449649, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3894363387994389011, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8171088575836098606, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4003496847986710494, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 773630822893159417, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2550156871129542701, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5050328199508035186, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5972572355678480247, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4551440323501962020, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3616674035419207063, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5261455439236094471, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3668274820719848245, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4328524002036292235, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4737133815363245943, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4607017952244530461, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3726295775479217668, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6838617812689426833, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3073721845528175988, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6907276203296205564, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 420643995118374436, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3027749058867871458, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5266618353619537215, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4729253028347294740, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6333155456451626443, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3486767523078928772, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5183881125808743623, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8589558317955969565, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1045914669510141759, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 8227029716800079677, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7365983662227384081, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5589925160431682466, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8120975523598613856, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -9166222950341717372, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2651204231662660981, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1843680836243028662, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3907825203743208170, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5359559061235094824, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 271900166830572579, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7498034262584800665, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4979898830393488148, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5387336676696015938, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2729075517409809303, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8433427982978563449, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4360705888871705355, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4161528508392952524, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -3503078659171359427, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5027054907495084180, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 5502576484771650099, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6938223935595040144, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1424879122859892506, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7167576768419680513, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2530459682750654305, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6508028539545307468, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5144429942038855094, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2687641539341536345, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 3675504404695959230, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1108109836191623560, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2118598772886092060, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4385352000101742516, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4877624441691591569, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 2477925708982604056, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7033869950350131718, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6662318420050231177, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1272572978936971040, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8447798977835621195, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -5208887253232821192, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -4447479270061261814, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4585029212860702015, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -2276529194683412280, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -8477681777715373774, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 6850635467305441237, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -7852981486476824172, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 822555621090318070, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7901418308152913800, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: -1797657003488851400, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 1297439216495062459, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 4671037370181186360, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
+    - {fileID: 7419395829816446249, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -2914114992913075143, guid: ffc1d49c87e1d6047bff0d2ebb08e75b, type: 3}
@@ -37070,7 +37481,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -37169,7 +37580,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -37268,7 +37679,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -37367,7 +37778,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -37466,7 +37877,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -37565,7 +37976,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -37743,7 +38154,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -37842,7 +38253,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -37941,7 +38352,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -38040,7 +38451,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -38139,7 +38550,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -38238,7 +38649,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -38337,7 +38748,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -38436,7 +38847,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -38535,7 +38946,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -38634,7 +39045,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -38733,7 +39144,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -38832,7 +39243,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -38931,7 +39342,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -39030,7 +39441,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -39129,7 +39540,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -39228,7 +39639,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -39327,7 +39738,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -39426,7 +39837,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -39652,7 +40063,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -39751,7 +40162,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -39850,7 +40261,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -39949,7 +40360,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -40048,7 +40459,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -40147,7 +40558,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -40246,7 +40657,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -40345,7 +40756,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -40444,7 +40855,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -40543,7 +40954,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -40754,7 +41165,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -40853,7 +41264,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -40952,7 +41363,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -41051,7 +41462,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -41150,7 +41561,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -41281,7 +41692,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -41380,7 +41791,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -41479,7 +41890,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -41578,7 +41989,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -41742,7 +42153,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -41841,7 +42252,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -41940,7 +42351,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -42039,7 +42450,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -42138,7 +42549,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -42237,7 +42648,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -42336,7 +42747,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -42435,7 +42846,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -42534,7 +42945,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -42633,7 +43044,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -42732,7 +43143,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -42831,7 +43242,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -42930,7 +43341,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43029,7 +43440,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43128,7 +43539,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43227,7 +43638,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43326,7 +43737,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43425,7 +43836,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43524,7 +43935,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43623,7 +44034,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43722,7 +44133,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43821,7 +44232,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -43920,7 +44331,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -44019,7 +44430,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -44118,7 +44529,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -44217,7 +44628,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -44316,7 +44727,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -44415,7 +44826,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -44514,7 +44925,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -44613,7 +45024,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -44712,7 +45123,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -44811,7 +45222,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -44910,7 +45321,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -45009,7 +45420,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -45108,7 +45519,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -45207,7 +45618,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -45306,7 +45717,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -45405,7 +45816,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -45504,7 +45915,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -45603,7 +46014,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -45702,7 +46113,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -45850,7 +46261,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -45949,7 +46360,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -46048,7 +46459,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -46147,7 +46558,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -46246,7 +46657,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -46345,7 +46756,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -46444,7 +46855,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -46543,7 +46954,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -46642,7 +47053,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -46741,7 +47152,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -46840,7 +47251,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -46939,7 +47350,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -47038,7 +47449,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -47137,7 +47548,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -47236,7 +47647,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -47335,7 +47746,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -47434,7 +47845,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -47533,7 +47944,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -47632,7 +48043,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -47731,7 +48142,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -47830,7 +48241,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -47929,7 +48340,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -48028,7 +48439,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -48127,7 +48538,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -48226,7 +48637,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -48325,7 +48736,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -48424,7 +48835,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
