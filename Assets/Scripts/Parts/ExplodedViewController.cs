@@ -1,11 +1,12 @@
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
 
 public class ExplodedViewController : MonoBehaviour
 {
     public float explosionDistance = 0.3f;
 
-    private ExplodablePart[] parts;
+    [SerializeField] ExplodablePart[] parts;
 
     private void OnEnable()
     {
@@ -29,4 +30,25 @@ public class ExplodedViewController : MonoBehaviour
             parts[i].SetExplosion(value, explosionDistance);
         }
     }
+
+    [ContextMenu("Get Parts")]
+    void GetParts()
+    {
+        parts = GetComponentsInChildren<ExplodablePart>();
+    }
+
+    [ContextMenu("GetPartsPosition")]
+    void GetPartsPosition()
+    {
+        for (int i = 0; i < parts.Length; i++)
+        {
+            parts[i].GetInitialPosition();
+        }
+    }
+
+    [ContextMenu("Explode")]
+    void Explode() => SetExplosion(1);
+
+    [ContextMenu("Solid")]
+    void Solid() => SetExplosion(0);
 }

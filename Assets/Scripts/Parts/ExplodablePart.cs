@@ -6,7 +6,7 @@ public class ExplodablePart : MonoBehaviour
     public Vector3 localDirection = Vector3.right; // definir no Inspector
     public float distanceMultiplier = 1f; // opcional (cada peça pode ir mais longe)
 
-    private Vector3 initialLocalPosition;
+    [SerializeField] Vector3 initialLocalPosition;
 
     void Awake()
     {
@@ -22,4 +22,6 @@ public class ExplodablePart : MonoBehaviour
             initialLocalPosition +
             localDirection * globalDistance * distanceMultiplier * value;
     }
+
+    public void GetInitialPosition() => initialLocalPosition = transform.localPosition;
 }

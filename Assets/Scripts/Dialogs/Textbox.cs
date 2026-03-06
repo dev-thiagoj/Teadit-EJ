@@ -9,16 +9,10 @@ using UnityEngine.UI;
 
 namespace BMV.Dialogs
 {
-	public class Textbox : MonoBehaviour
-	{
+    public class Textbox : MonoBehaviour
+    {
         [SerializeField]
         TMP_Text text;
-
-        //[SerializeField] Decision currentDecision;
-        [SerializeField] DialogueContent content;
-        [SerializeField] List<Button> decisionButtons = new();
-        [SerializeField] GameObject buttonPrefab;
-        [SerializeField] Transform btnsContainer;
 
         [SerializeField]
         Animator animator;
@@ -34,23 +28,25 @@ namespace BMV.Dialogs
         int openParameter;
 
         public static event Action OnClosed;
-        //public static UnityEvent<Decision> OnNewDecisionCalled = new();
-        public static UnityEvent<int> OnTextBoxDecisonTaked = new();
-
-        public DialogueContent Content
-        {
-            get => content;
-            set
-            {
-                content = value;
-                text.text = content.Question;
-            }
-        }
 
         bool IsOpened
         {
             get => animator.GetBool(openParameter);
-            set => animator.SetBool(openParameter, value);
+            set
+            {
+                animator.SetBool(openParameter, value);
+
+                if (value)
+                    return;
+
+                StartCoroutine(WaitForCloseAnimation());
+            }
+        }
+
+        void Awake()
+        {
+            openParameter = animator.parameters[0].nameHash;
+            //Close();
         }
 
 #if UNITY_EDITOR
@@ -58,30 +54,76 @@ namespace BMV.Dialogs
 #endif
         public void Open()
         {
-            RefreshFromContext();
             IsOpened = true;
+        }
+
+        IEnumerator WaitForCloseAnimation()
+        {
+            yield return null;
+
+            float animationDuration = animator.GetCurrentAnimatorStateInfo(0).length;
+
+            var amount = animationDuration + 1;
+            yield return new WaitForSeconds(amount);
+
+            OnClosed?.Invoke();
+        }
+
+        public void OnPointerClick(PointerEventData eventData)
+        {
+            if (!isStarted)
+            {
+                Show();
+                return;
+            }
+
+            if (!isWritting)
+            {
+                Next();
+                return;
+            }
+
+            if (!speedUp)
+            {
+                speedUp = true;
+                waitInstruction = null;
+                return;
+            }
+
+            if (speedUp)
+            {
+                StopAllCoroutines();
+                text.maxVisibleCharacters = text.textInfo.characterCount;
+                isWritting = false;
+                return;
+            }
         }
 
         void Close()
         {
-            //currentDecision = null;
             IsOpened = false;
+            //OnClosed?.Invoke();
         }
 
-        void Next()
+        public void Next()
         {
             speedUp = false;
 
             if (text.pageToDisplay < text.textInfo.pageCount)
             {
-                //Debug.Log($"Going to page {text.pageToDisplay + 1}");
+                Debug.Log($"Going to page {text.pageToDisplay + 1}");
                 text.pageToDisplay++;
                 StartTipping(text.textInfo.pageInfo[text.pageToDisplay]);
                 return;
             }
 
-            OnClosed?.Invoke();
             Close();
+        }
+
+        public void FastForward()
+        {
+            speedUp = true;
+            waitInstruction = null;
         }
 
         void Show()
@@ -103,9 +145,9 @@ namespace BMV.Dialogs
         IEnumerator TippingCoroutine(int quantity)
         {
             yield return null;
-            //#if UNITY_EDITOR
-            //            Debug.Log($"Tipping to {quantity} characters.");
-            //#endif
+#if UNITY_EDITOR
+            Debug.Log($"Tipping to {quantity} characters.");
+#endif
             isWritting = true;
             waitInstruction = new WaitForSeconds(typingSpeed);
 
@@ -124,110 +166,16 @@ namespace BMV.Dialogs
 
         void StartTipping(TMP_PageInfo pageInfo)
         {
-            //#if UNITY_EDITOR
-            //            Debug.Log($"Page {text.pageToDisplay}/{text.textInfo.pageCount}");
-            //#endif
+#if UNITY_EDITOR
+            Debug.Log($"Page {text.pageToDisplay}/{text.textInfo.pageCount}");
+#endif
             StartCoroutine(TippingCoroutine(pageInfo.lastCharacterIndex));
-        }
-
-        void RefreshFromContext()
-        {
-            //text.text = content.Question;
-            //text.pageToDisplay = 1;
-            //text.maxVisibleCharacters = 0;
-            //text.ForceMeshUpdate();
-
-            //for (int i = 0; i < decisionButtons.Count; i++)
-            //{
-            //    Button button = decisionButtons[i];
-            //    var text = button.GetComponentInChildren<TMP_Text>();
-            //    text.text = content.Answers[i];
-            //    int index = i;
-            //    decisionButtons[i].onClick.AddListener(() => ReceiveDecision(index));
-            //}
-        }
-
-        void Awake()
-        {
-            openParameter = animator.parameters[0].nameHash;
-            Close();
-        }
-
-        private IEnumerator Start()
-        {
-            //OnNewDecisionCalled.AddListener(OnNewDecisionComes);
-            //OnTextBoxDecisonTaked.AddListener(ReceiveEntryDecision);
-
-            //var startDecision = GetComponent<Decision>();
-            //OnNewDecisionComes(startDecision);
-
-            //         for (int i = 0; i < decisionButtons.Count; i++)
-            //{
-            //	int index = i;
-            //	decisionButtons[i].onClick.AddListener(() => ReceiveDecision(index));
-            //}
-
-            yield return new WaitForSeconds(2);
-            Open();
-        }
-
-        void ReceiveEntryDecision(int index)
-        {
-            if (index == 0)
-            {
-                speedUp = true;
-                waitInstruction = null;
-                return;
-            }
-
-            if (index == 1)
-                Next();
-        }
-
-        //void OnNewDecisionComes(Decision decision)
-        //{
-        //    //Debug.Log($"New decision comes: {decision.Description.Question}");
-
-        //    currentDecision = decision;
-        //    Content = decision.Description;
-
-        //    if (decisionButtons.Count > 0)
-        //    {
-        //        foreach (var btn in decisionButtons)
-        //            Destroy(btn.gameObject);
-        //    }
-
-        //    decisionButtons.Clear();
-        //    var buttonsToUse = decision.Description.Answers.Length;
-
-        //    //Debug.Log($"Creating {buttonsToUse} buttons for the decision.");
-
-        //    for (int i = 0; i < buttonsToUse; i++)
-        //    {
-        //        var btn = Instantiate(buttonPrefab, btnsContainer);
-        //        decisionButtons.Add(btn.GetComponent<Button>());
-        //    }
-
-        //    Open();
-        //}
-
-        public void ReceiveDecision(int index)
-        {
-            //if (currentDecision == null)
-            //    return;
-
-            //bool isEntryPoint = currentDecision.Description.Id != 0;
-
-            //currentDecision.DecisionTaked(index, isEntryPoint);
-
-            //if (isEntryPoint)
-            //    return;
-
-            //Close();
         }
 
         void AE_OnClosed()
         {
+            return;
+
             if (!isStarted)
                 return;
 
