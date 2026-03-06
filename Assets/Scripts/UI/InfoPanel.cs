@@ -11,7 +11,7 @@ public class InfoPanel : MonoBehaviour
     JointManager jointManager;
 
     [SerializeField] Button button;
-    [SerializeField] TextMeshProUGUI textBox;
+    //[SerializeField] TextMeshProUGUI textBox;
     Vector2 closedPosition;
 
     [Header("Animation Setup")]
@@ -27,11 +27,11 @@ public class InfoPanel : MonoBehaviour
 
     private void Awake()
     {
-        if (button && textBox)
-            return;
+        //if (button && textBox)
+        //    return;
 
         button = GetComponentInChildren<Button>();
-        textBox = GetComponentInChildren<TextMeshProUGUI>();
+        //textBox = GetComponentInChildren<TextMeshProUGUI>();
     }
 
     private void Start()
@@ -77,9 +77,9 @@ public class InfoPanel : MonoBehaviour
         //    .SetEase(Ease.OutCubic);
     }
 
-    void SetInfo(JointData currentData)
-    {
-        var info = currentData.info.Question;
-        textBox.text = info;
-    }
+    //void SetInfo(JointData currentData)
+    //{
+    //    var info = currentData.info.Question;
+    //    textBox.text = info;
+    //}
 }
