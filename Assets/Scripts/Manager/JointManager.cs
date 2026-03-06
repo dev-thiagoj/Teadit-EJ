@@ -6,6 +6,8 @@ using UnityEngine.Events;
 
 public class JointManager : MonoBehaviour
 {
+    public static JointManager Instance;
+
     [SerializeField] Transform spawnPoint;
 
     [SerializeField] private CinemachineTargetGroup targetGroup;
@@ -16,6 +18,9 @@ public class JointManager : MonoBehaviour
 
     Tween resetTween;
 
+    JointData currentJointData;
+    public JointData CurrentJoint => currentJointData;
+
     private void OnDisable()
     {
         ExplosionUIController.OnResetViewed.RemoveListener(ResetView);
@@ -23,7 +28,12 @@ public class JointManager : MonoBehaviour
 
     private void Awake()
     {
-        ExplosionUIController.OnResetViewed.AddListener(ResetView);
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(Instance);
+
+            ExplosionUIController.OnResetViewed.AddListener(ResetView);
     }
 
     private void ResetView()
@@ -51,6 +61,8 @@ public class JointManager : MonoBehaviour
             Quaternion.identity,
             spawnPoint
         );
+
+        currentJointData = data;
 
         // Atualiza Target Group
         SetupTargetGroup(currentJoint);

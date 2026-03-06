@@ -28,6 +28,7 @@ namespace BMV.Dialogs
         int openParameter;
 
         public static event Action OnClosed;
+        public event Action PrepareToOpen;
 
         bool IsOpened
         {
@@ -54,6 +55,7 @@ namespace BMV.Dialogs
 #endif
         public void Open()
         {
+            PrepareToOpen?.Invoke();
             IsOpened = true;
         }
 
@@ -170,6 +172,12 @@ namespace BMV.Dialogs
             Debug.Log($"Page {text.pageToDisplay}/{text.textInfo.pageCount}");
 #endif
             StartCoroutine(TippingCoroutine(pageInfo.lastCharacterIndex));
+        }
+
+        public void SetText(string text)
+        {
+            this.text.text = text;
+            Open();
         }
 
         void AE_OnClosed()

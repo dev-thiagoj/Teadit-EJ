@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9b5ac752308c945a253ec615d30c07, type: 3}
+  m_Name: Pressao Balanceada com Derivacao
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueContent
+  id: 0
+  question: "S\xE3o frequentemente utilizadas em aplica\xE7\xF5es onde a for\xE7a
+    de press\xE3o n\xE3o pode ser suportada pela tubula\xE7\xE3o ou equipamento,
+    uma vez que sua maior vantagem \xE9 a capacidade de absorver movimentos sem transmitir
+    for\xE7as provenientes da press\xE3o do sistema."
+  answers: []

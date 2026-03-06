@@ -9,11 +9,12 @@ public class UIController : MonoBehaviour
     [Header("Referencias")]
     [SerializeField] JointUITitleController header;
     [SerializeField] Textbox textbox;
-    [SerializeField] InfoPanel infoPanel;
+    //[SerializeField] InfoPanel infoPanel;
 
     private void OnDestroy()
     {
         Textbox.OnClosed -= OnDialogueEnds;
+        textbox.PrepareToOpen -= Hide;
     }
 
     private void Awake()
@@ -30,6 +31,7 @@ public class UIController : MonoBehaviour
 
         textbox = GetComponentInChildren<Textbox>();
         Textbox.OnClosed += OnDialogueEnds;
+        textbox.PrepareToOpen += Hide;
     }
 
     private void Start()
@@ -42,6 +44,8 @@ public class UIController : MonoBehaviour
     {
         header.Show();
     }
+
+    void Hide() => header.Hide();
 
     //#E6E6E6
 }

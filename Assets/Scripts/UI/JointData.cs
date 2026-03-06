@@ -7,10 +7,5 @@ public class JointData : ScriptableObject
     public string code;
     public Sprite thumbnail;
     public GameObject prefab;
-
-    [Header("Technical Info")]
-    public float diameter;
-    public float maxPressure;
-    public float maxTemperature;
-    public string material;
+    public DialogueContent info;
 }

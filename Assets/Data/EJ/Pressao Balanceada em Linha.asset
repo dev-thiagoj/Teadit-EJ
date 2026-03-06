@@ -16,7 +16,4 @@ MonoBehaviour:
   code: 008
   thumbnail: {fileID: 21300000, guid: c368a1589f74ced44904aacc67f80fd9, type: 3}
   prefab: {fileID: 6896279667517320980, guid: 6b30d798fe2c9d8409c37f9ff866dadf, type: 3}
-  diameter: 10
-  maxPressure: 50
-  maxTemperature: 250
-  material: Metal
+  info: {fileID: 11400000, guid: c5b5d783fba7cdd43a7647656f6a7f2c, type: 2}
